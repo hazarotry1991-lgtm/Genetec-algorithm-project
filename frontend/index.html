@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مشروع اختيار الميزات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>مشروع اختيار الميزات باستخدام الخوارزمية الجينية</h1>
+  </header>
+
+  <section>
+    <h2>تحميل قاعدة بيانات</h2>
+    <input type="file" id="datasetInput" accept=".csv, .xlsx">
+    <button onclick="runAlgorithm()">تشغيل الخوارزمية</button>
+  </section>
+
+  <section>
+    <h2>الميزات المختارة</h2>
+    <div id="selectedFeatures">لم يتم التشغيل بعد</div>
+  </section>
+
+  <section>
+    <h2>مقارنة مع الطرق التقليدية</h2>
+    <div id="comparisonResults">لا توجد نتائج بعد</div>
+  </section>
+
+  <footer>
+    <a href="https://github.com/hazarzorty1991-lgtm/Genetec-algorithm-project" target="_blank">رابط المشروع على GitHub</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
